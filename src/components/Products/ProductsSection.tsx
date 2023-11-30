@@ -94,10 +94,13 @@ const ProductsSection = () => {
   return (
     <StyledProductsSection id="menu">
       <div>
-        <p className="products-title text-[40px] font-[600]">
+        <p
+          data-aos="fade-right"
+          className="products-title text-[40px] font-[600]"
+        >
           Our purpose is to deliver fresh fruit to you
         </p>
-        <p>
+        <p data-aos="fade-left">
           Fruits and vegetables contain many vitamins and minerals that are good
           for your health. These include vitamins
         </p>

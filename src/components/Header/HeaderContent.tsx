@@ -4,21 +4,30 @@ const HeaderContent = () => {
   return (
     <StyledHeaderContent id="home" className="flex items-center">
       <div className="header-content__container py-20">
-        <p className="text-[25px]">FRESH FRUIT FOR YOU</p>
-        <p className="header-content__title text-[100px] font-bold text-[#59BE29] leading-[108px]">
+        <p data-aos="fade-left" className="text-[25px]">
+          FRESH FRUIT FOR YOU
+        </p>
+        <p
+          data-aos="fade-left"
+          className="header-content__title text-[100px] font-bold text-[#59BE29] leading-[108px]"
+        >
           Eat as you want
         </p>
-        <p className="py-6">
+        <p data-aos="fade-down" className="py-6">
           Fruit and vegetables should be an important part of your daily diet.
           They are naturally good and contain vitamins and minerals that can
           help to keep you healthy. .
         </p>
         <div className="flex gap-4">
-          <button className="primary-button">Add To Cart</button>
-          <button className="secondary-button">Learn more</button>
+          <button data-aos="fade-right" className="primary-button">
+            Add To Cart
+          </button>
+          <button data-aos="fade-left" className="secondary-button">
+            Learn more
+          </button>
         </div>
       </div>
-      <div>
+      <div data-aos="fade-left">
         <img
           className="header-content__img"
           style={{ width: "1000px", height: "400px" }}

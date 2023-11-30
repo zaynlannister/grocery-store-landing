@@ -18,14 +18,17 @@ const FeatureSection = () => {
         <img src="/img/lemons.png" alt="img" />
       </div>
       <div>
-        <p className="feature-section__title text-[42px] font-[600]">
+        <p
+          data-aos="fade-up"
+          className="feature-section__title text-[42px] font-[600]"
+        >
           Eat a banana for a healthy snack
         </p>
-        <p className="py-4">
+        <p data-aos="fade-up" className="py-4">
           You should eat at least five serves of vegetables and two serves of
           fruit each day. Choose different colours and varieties.
         </p>
-        <div className="feature-cards__container">
+        <div data-aos="fade-down" className="feature-cards__container">
           {cardsData.map((item, index) => (
             <FeatureCard
               key={index}

@@ -19,10 +19,10 @@ const HeaderSection = () => {
   return (
     <StyledHeader className="flex justify-between items-center">
       <MobileMenu menuOpen={open} toggleMenu={toggleMenu} />
-      <div>
+      <div data-aos="fade-right">
         <img width={80} height={70} src="/img/logo.jpg" alt="" />
       </div>
-      <div className="flex gap-10 header-nav">
+      <div data-aos="fade-down" className="flex gap-10 header-nav">
         <a className="custom-link" href="#menu">
           Menu
         </a>
@@ -37,7 +37,9 @@ const HeaderSection = () => {
         </a>
       </div>
       <div className="flex justify-end items-center gap-8">
-        <button className="primary-button">Sign Up</button>
+        <button data-aos="fade-left" className="primary-button">
+          Sign Up
+        </button>
         <div className="header-burger hidden">
           <BurgerMenu menuOpen={open} toggleMenu={toggleMenu} />
         </div>
