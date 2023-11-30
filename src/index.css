@@ -74,3 +74,19 @@ body.menu-open {
 .secondary-button:hover {
   box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2) inset;
 }
+
+.slick-next {
+  right: -10px !important;
+  z-index: 66;
+}
+
+.slick-prev {
+  left: -10px !important;
+  z-index: 66;
+}
+
+.slick-next::before,
+.slick-prev::before {
+  color: #59be29 !important;
+  font-size: 24px !important;
+}

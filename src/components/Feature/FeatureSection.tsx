@@ -12,10 +12,10 @@ const FeatureSection = () => {
   return (
     <StyledFeature className="flex justify-between items-center py-12">
       <div className="feature-section__img">
-        <img src="/img/lemons.png" alt="" />
+        <img src="/img/lemons.png" alt="img" />
       </div>
       <div>
-        <p className="text-[42px] font-[600]">
+        <p className="feature-section__title text-[42px] font-[600]">
           Eat a banana for a healthy snack
         </p>
         <p className="py-4">
@@ -48,6 +48,12 @@ const StyledFeature = styled.div`
   @media (max-width: 1075px) {
     .feature-section__img {
       display: none;
+    }
+  }
+
+  @media (max-width: 530px) {
+    <div className="" > </div > feature-section__title {
+      font-size: 30px;
     }
   }
 
