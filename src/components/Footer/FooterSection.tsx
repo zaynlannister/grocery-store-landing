@@ -10,7 +10,7 @@ const FooterSection = () => {
           personalized experience.
         </p>
       </div>
-      <div data-aos="fade-right" className="footer-socials mt-2">
+      <div className="footer-socials mt-2">
         <div className="footer-socials__links ml-[-18px]">
           <img src="/img/facebook.svg" alt="img" />
           <img src="/img/inst.svg" alt="img" />
