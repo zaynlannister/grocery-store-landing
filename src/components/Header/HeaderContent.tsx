@@ -15,7 +15,7 @@ const HeaderContent = () => {
         </p>
         <div className="flex gap-4">
           <button className="primary-button">Add To Cart</button>
-          <button className="primary-button">Learn more</button>
+          <button className="secondary-button">Learn more</button>
         </div>
       </div>
       <div>

@@ -47,13 +47,26 @@ body {
 
 .primary-button {
   color: #fff;
+  border: 1px solid #59be29;
   border-radius: 20px 80px;
   background-color: #59be29;
   padding: 6px 30px;
-  box-shadow: 0px 10px 20px 0px rgba(22, 52, 7, 0.1);
   transition: 150ms all;
 }
 
 .primary-button:hover {
   background-color: #53a72c;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2) inset;
+}
+
+.secondary-button {
+  border-radius: 20px 80px;
+  border: 1px solid rgba(89, 190, 41, 0.3);
+  background: #fff;
+  padding: 6px 30px;
+  transition: box-shadow 0.3s ease;
+}
+
+.secondary-button:hover {
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2) inset;
 }
