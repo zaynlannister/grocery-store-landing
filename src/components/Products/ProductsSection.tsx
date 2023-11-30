@@ -92,7 +92,7 @@ const ProductsSection = () => {
   };
 
   return (
-    <StyledProductsSection>
+    <StyledProductsSection id="menu">
       <div>
         <p className="products-title text-[40px] font-[600]">
           Our purpose is to deliver fresh fruit to you

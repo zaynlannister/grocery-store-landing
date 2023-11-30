@@ -1,4 +1,5 @@
 import FeatureSection from "./components/Feature/FeatureSection";
+import FooterSection from "./components/Footer/FooterSection";
 import HeaderContent from "./components/Header/HeaderContent";
 import HeaderSection from "./components/Header/HeaderSection";
 import ProductsSection from "./components/Products/ProductsSection";
@@ -15,6 +16,9 @@ const App = () => {
       </>
       <>
         <ProductsSection />
+      </>
+      <>
+        <FooterSection />
       </>
     </div>
   );

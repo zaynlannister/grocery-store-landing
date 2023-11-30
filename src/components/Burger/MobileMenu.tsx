@@ -14,8 +14,8 @@ const MobileMenu = (props: MobileMenuInterface) => {
       <div onClick={props.toggleMenu} className="flex flex-col">
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#packages">Service</a>
-        <a href="#contact">Contact Us</a>
+        <a href="#menu">Fruits</a>
+        <a href="#menu">Pricing</a>
         <a href="#faq">FAQ</a>
       </div>
     </StyledMenu>

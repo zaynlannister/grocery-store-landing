@@ -23,16 +23,16 @@ const HeaderSection = () => {
         <img width={80} height={70} src="/img/logo.jpg" alt="" />
       </div>
       <div className="flex gap-10 header-nav">
-        <a className="custom-link" href="#">
+        <a className="custom-link" href="#menu">
           Menu
         </a>
-        <a className="custom-link" href="#">
+        <a className="custom-link" href="#about">
           About us
         </a>
-        <a className="custom-link" href="#">
+        <a className="custom-link" href="#menu">
           Fruits
         </a>
-        <a className="custom-link" href="#">
+        <a className="custom-link" href="#menu">
           Pricing
         </a>
       </div>

@@ -10,7 +10,10 @@ const cardsData = [
 
 const FeatureSection = () => {
   return (
-    <StyledFeature className="flex justify-between items-center py-12">
+    <StyledFeature
+      id="about"
+      className="flex justify-between items-center py-12"
+    >
       <div className="feature-section__img">
         <img src="/img/lemons.png" alt="img" />
       </div>

@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #0a1902;
   font-family: "Baloo Chettan 2", sans-serif, Arial;

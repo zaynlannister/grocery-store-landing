@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const HeaderContent = () => {
   return (
-    <StyledHeaderContent className="flex items-center">
+    <StyledHeaderContent id="home" className="flex items-center">
       <div className="header-content__container py-20">
         <p className="text-[25px]">FRESH FRUIT FOR YOU</p>
         <p className="header-content__title text-[100px] font-bold text-[#59BE29] leading-[108px]">
