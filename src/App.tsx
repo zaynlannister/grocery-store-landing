@@ -1,3 +1,4 @@
+import HeaderContent from "./components/Header/HeaderContent";
 import HeaderSection from "./components/Header/HeaderSection";
 
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
     <div className="my-container">
       <>
         <HeaderSection />
+        <HeaderContent />
       </>
     </div>
   );

@@ -47,6 +47,7 @@ const HeaderSection = () => {
 };
 
 const StyledHeader = styled.div`
+  padding: 20px 0;
   @media (max-width: 745px) {
     .header-nav {
       display: none;

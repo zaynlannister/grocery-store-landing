@@ -7,7 +7,7 @@ interface MobileMenuInterface {
 const MobileMenu = (props: MobileMenuInterface) => {
   return (
     <StyledMenu
-      className={`bg-[#fff] absolute flex flex-col text-[22px] w-[100%] left-0 bottom-0 right-0 top-[80px] px-4 z-50 ${
+      className={`bg-[#fff] absolute flex flex-col text-[22px] w-[100%] left-0 bottom-0 right-0 top-[100px] px-4 z-50 ${
         !props.menuOpen ? "" : "hidden-menu"
       }`}
     >
