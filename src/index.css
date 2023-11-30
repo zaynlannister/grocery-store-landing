@@ -14,6 +14,10 @@ body {
   font-family: "Baloo Chettan 2", sans-serif, Arial;
 }
 
+body.menu-open {
+  overflow-y: hidden;
+}
+
 .my-container {
   width: min(1120px, 100%);
   padding: 0 20px;
